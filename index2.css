@@ -1,0 +1,126 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-size: 20px;
+}
+
+header {
+  background-color: #227563;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  background-color: #52b9a8a8;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+
+.block {
+  display: block;
+  background-color: rgb(32, 129, 146);
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.inline {
+  display: inline;
+  background-color: rgb(180, 24, 76);
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: rgb(114, 22, 102);
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.none {
+  display: none;
+}
+
+
+.static {
+  position: static;
+  background-color: #9e9e9e;
+  padding: 10px;
+  color: white;
+  margin: 10px 0;
+}
+
+.relative {
+  position: relative;
+  background-color: #427239;
+  padding: 10px;
+  color: white;
+  top: 10px;
+  left: 10px;
+  margin: 10px 0;
+}
+
+.contenedor {
+  position: relative;
+  background-color: #e0e0e0;
+  height: 100px;
+  margin: 10px 0;
+}
+
+.absolute {
+  position: absolute;
+  background-color: #3f51b5;
+  padding: 10px;
+  color: white;
+  top: 10px;
+  right: 10px;
+}
+
+
+.caja-fixed {
+  background-color: #ddd;
+  height: 200px;
+  margin: 20px 0;
+  position: relative;
+  border: 2px dashed #999;
+  }
+
+.fixed {
+  position: fixed;
+  background-color: #e74c3c;
+  padding: 10px;
+  color: white;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: #2ecc71;
+  padding: 10px;
+  color: white;
+  margin-top: 20px;
+  z-index: 5;
+}
+
